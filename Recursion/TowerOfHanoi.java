@@ -1,0 +1,14 @@
+public class TowerOfHanoi{
+    public static void main(String[] args) {
+        hanoi(3,'A','B','C');
+
+        
+    }
+    public static void hanoi(int n,char A,char B,char C){
+        if(n==0) return ;
+        hanoi(n-1,A,C,B);
+        System.out.println(A+" to "+C);
+        hanoi(n-1,B,C,A);
+        
+    }
+}
