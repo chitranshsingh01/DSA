@@ -6,6 +6,7 @@ public class first{
             this.val=val;
         }
     }
+    
     public static void main(String[] args) {
         node a=new node(10); //a.val=10
         node b=new node(20);       //b.val=10;
