@@ -5,7 +5,7 @@ public class searchrotatedarray {
         int[] nums={1,3}; //{5,6,0,1,2,3,4}
         int ans=search(nums,3);
         System.out.println(ans);
-        
+
 
     }
 
